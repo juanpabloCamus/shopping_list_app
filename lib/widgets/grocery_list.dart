@@ -52,10 +52,11 @@ class _GroceryListState extends State<GroceryList> {
 
         loadedItems.add(
           GroceryItem(
-              id: item.key,
-              name: item.value['name'],
-              quantity: item.value['quantity'],
-              category: category),
+            id: item.key,
+            name: item.value['name'],
+            quantity: item.value['quantity'],
+            category: category,
+          ),
         );
       }
 
